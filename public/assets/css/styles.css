@@ -1,11 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Cormorant Upright, serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #fff;
+    background-color: #F3EDE5;
     padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -14,40 +14,98 @@ header {
     z-index: 1000;
 }
 
-.logo img {
-    height: 50px;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 0;
 }
+
+
+/* .brandlogo{
+    height: 80px;
+    width: 80px;
+
+} */
 
 .menu {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     margin: 0;
     padding: 0;
+    margin-left: 30px;
+    font-size: 20px;
 }
 
 .menu li {
-    display: inline;
+    display: flex;
+    justify-content: left;
 }
 
 .menu a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    font-size: 20px;
+    transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+.menu a:hover {
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .icons {
     display: flex;
+    align-items: center;
     gap: 15px;
+    margin-right: 50px;
+    margin-left: auto;
 }
 
 .icons a {
-    color: #333;
-    font-size: 20px;
+    color: #8B7355;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease, font-size 0.3s ease;
 }
 
+.icons a:hover {
+    transform: scale(1.2);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+.search input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.search button{
+    background-color: #b0a9a9;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+}
 .banner {
-    margin-top: 80px; /* Adjust based on header height */
+    margin-top: 80px;
     text-align: center;
     position: relative;
 }
