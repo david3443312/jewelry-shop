@@ -1,5 +1,5 @@
 body {
-    font-family: Cormorant Upright, serif;
+    font-family: "Cormorant Upright", serif;
     margin: 0;
     padding: 0;
     background-color: #F6F4EC;
@@ -100,6 +100,46 @@ nav {
     border-radius: 25px;
     cursor: pointer;
 }
+
+/* CSS for the hover dropdown */
+.account-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+  
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #F6F4EC;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+}
+  
+.dropdown-menu a {
+    color: #7D6E5D;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+  
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    font-size: 25px;
+
+}
+  
+  /* Show the dropdown menu on hover */
+.account-container:hover .dropdown-menu {
+    display: block;
+}
+
 .banner {
     margin-top: 80px;
     text-align: center;
@@ -193,4 +233,7 @@ nav {
     grid-column: span 1;
     grid-row: span 1;
 }
-  
+
+.categories {
+    text-align: center;
+}
