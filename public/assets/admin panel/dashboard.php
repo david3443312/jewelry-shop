@@ -1,5 +1,11 @@
 <?php 
     include '../components/connect.php';
+    if (isset($_COOKIE['vendor_id'])) {
+        $vendor_id = $_COOKIE['vendor_id'];
+    } else {
+        $vendor_id = '';
+        header('location: login.php');
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,6 +17,7 @@
     <link rel="stylesheet" href="../css//admin_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
     <link rel="icon" href="../images/logoicon.png" type="image/x-icon">
@@ -137,5 +144,6 @@
     <!-- sweetalert cdn link -->
      <script src = "https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
          <?php include '../components/alert.php'; ?>
+         <script src="../js//admin_script.js"></script>
 </body>
 </html>
