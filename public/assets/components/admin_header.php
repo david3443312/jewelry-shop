@@ -7,7 +7,11 @@
                     <a href="signup.html"><span class="iconify" data-icon="codicon:account" style="height: 95%; width: 95%;"></span></a>
                 </div>
                 <div class="dropdown-menu">
-                    <a href="signup.html">Đăng ký</a>
+                    <div class="box-menu">
+                        <a href="signup.html">Hồ sơ</a>
+                        <a href="signup.html">Thoát</a>
+                    </div>
+                    
                 </div>
             </div>
         </div>
