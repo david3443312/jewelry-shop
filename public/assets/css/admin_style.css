@@ -81,6 +81,17 @@ header nav .account-container:hover .dropdown-menu .box-menu a {
     text-decoration: none;
 }
 
+.signup-link {
+    margin-left: 50px;
+    display: ruby;
+}
+
+.signup-link a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #7d7158;
+}
+
 .material-icons-sharp {
     display: none;
 }
