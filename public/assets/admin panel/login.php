@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Đăng nhập - Jewelry Shop</title>
         <link rel="stylesheet" href="../css//stylessignup.css">
+        <link rel="stylesheet" href="../css//admin_style.css">
         <link rel="stylesheet" href="../css//styleshomepage.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -41,6 +42,10 @@
                 <button type="submit" class="signup-btn1">Đăng nhập</button>
             </div>
         </form>
+        <div class="signup-link">
+            <h2>Bạn chưa có tài khoản:</h2>
+            <a href="register.php">Đăng ký</a>
+        </div> 
         
         <!-- <img src="images/signup/signup1.jpg" alt="Đăng ký tài khoản" class="signup-image"> -->
     </main>
