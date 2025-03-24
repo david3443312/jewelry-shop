@@ -44,6 +44,6 @@
         
         <!-- <img src="images/signup/signup1.jpg" alt="Đăng ký tài khoản" class="signup-image"> -->
     </main>
-    <img src="../images/signup/signup1.jpg" alt="Đăng ký tài khoản" class="signup-image">
+    
 </body>
 </html>
