@@ -1,3 +1,25 @@
+<?php
+    include '../components/connect.php';
+    if (isset($_POST['register'])) {
+
+        $email = $_POST['email'];
+        $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+
+        $pass = sha1($_POST['password']);
+        $pass = filter_var($pass, FILTER_SANITIZE_SPECIAL_CHARS);
+
+        $select_vendor = $conn->prepare("SELECT * FROM `vendors` WHERE email = ? AND password = ?");
+        $select_vendor->execute([$email, $pass]);
+        $row = $select_vendor->fetch(PDO::FETCH_ASSOC);
+
+        if ($select_vendor->rowCount() > 0) {
+        setcookie('vendor_id', $row['id'], time() + 86400, '/');
+        header('location: dashboard.php');
+        } else {
+            $warning_msg[] = "Incorrect email or password";
+        }
+    }
+?>
 <!DOCTYPE html>
 <html lang="vi">
     <head>
@@ -23,25 +45,27 @@
             <h2>Vui lòng đăng nhập tài khoản của bạn ở đây:</h2>
         </div>
         
-        <form class="signup-form">
+        <form class="signup-form" method="POST">
             <div class="form-row">
                 
                 <div class="form-group">
-                    <label for="username">Tên tài khoản:</label>
-                    <input type="text" id="username" name="username" title="Tên đăng nhập phải từ 6-20 ký tự!" pattern="^[a-zA-Z0-9]{6,20}$" required>
+                    <label for="username">Email:</label>
+                    <input type="email" required name="email" placeholder="Email">
                 </div>
-                
             </div>
             <div class="form-row">
                 <div class="form-group">
                     <label for="password">Mật khẩu:</label>
-                    <input type="password" id="password" name="password" title="Mật khẩu phải từ 8-20 ký tự!" pattern=".{8,20}" required>
+                    <input type="password" required name="password" placeholder="Password">
                 </div>
             </div>
             <div class="form-row">
-                <button type="submit" class="signup-btn1">Đăng nhập</button>
+                <button type="submit" name="register" class="signup-btn1">Đăng nhập</button>
             </div>
         </form>
+        <div class="fd-ps">
+            <a class="privacy-link" href="#">Quên mật khẩu?</a>
+        </div>
         <div class="signup-link">
             <h2>Bạn chưa có tài khoản:</h2>
             <a href="register.php">Đăng ký</a>
