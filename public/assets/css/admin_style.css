@@ -4,7 +4,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 0;
-    background: #fff;
+    background: #F6F4EC;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
@@ -21,7 +21,7 @@ header nav .sidebar {
     height: 100vh;
     width: 240px;
     padding: 1.5rem;
-    background: #f8f9fa;
+    background: #F6F4EC;
     box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
 
@@ -46,13 +46,13 @@ header nav .sidebar a:hover {
 }
 
 header nav .sidebar a.active {
-    background: #007bff;
+    background: #8B7355;
     color: #fff;
     border-radius: 8px;
 }
 
 header nav .sidebar h4 {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: 500;
     margin: 0;
 }
@@ -65,6 +65,7 @@ header nav .account-container .dropdown-menu {
     position: absolute;
     top: 100%;
     right: 0;
+    width: 150px;
     background: #fff;
     padding: 0.5rem;
     border-radius: 4px;
@@ -74,6 +75,10 @@ header nav .account-container .dropdown-menu {
 
 header nav .account-container:hover .dropdown-menu {
     display: block;
+}
+
+header nav .account-container:hover .dropdown-menu .box-menu a {
+    text-decoration: none;
 }
 
 .material-icons-sharp {
@@ -91,15 +96,15 @@ header nav .account-container:hover .dropdown-menu {
 
 .icons a {
     color: #8B7355;
-    font-size: 30px;
+    font-size: 28px;
     display: flex;
     align-items: center;
     transition: transform 0.3s ease, font-size 0.3s ease;
 }
 
 .icons a:hover {
-    transform: scale(1.2);
-    font-size: 36px;
+    transform: scale(1.0);
+    font-size: 30px;
     font-weight: bold;
 }
 /* Dash board */
@@ -110,7 +115,7 @@ header nav .account-container:hover .dropdown-menu {
 .db-container .db-right {
     width: 80%;
     margin-left: 20rem;
-    background: #fff;
+    background: #F6F4EC;
     border-radius: 0.5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -131,6 +136,7 @@ header nav .account-container:hover .dropdown-menu {
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 1.5rem;
     align-items: flex-start;
+    background-color: #F6F4EC;
 }
 
 .db-container .box-container .db-box {
@@ -162,7 +168,7 @@ header nav .account-container:hover .dropdown-menu {
 .db-container .box-container .db-box .btn {
     display: inline-block;
     padding: 0.8rem 1.5rem;
-    background: #3498db;
+    background: #8B7355;
     color: #fff;
     border-radius: 0.3rem;
     text-decoration: none;
