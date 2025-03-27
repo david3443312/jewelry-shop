@@ -45,7 +45,11 @@
                             $user_id = $fetch_users['id'];
                 ?>
                 <div class="box">
-                    <img src="../uploaded_files/<?= $fetch_users['image']; ?>">
+                    <?php if(!empty($fetch_users['image'])): ?>
+                        <img src="../uploaded_files/<?= $fetch_users['image']; ?>" class="logo-img" style="width:200px; height:200px; object-fit:cover; border-radius:50%;" >
+                        <?php else: ?>
+                        <img src="https://t4.ftcdn.net/jpg/02/15/84/43/360_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg" style="width:200px; height:200px; object-fit:cover; border-radius:50%;" alt="">
+                    <?php endif; ?>
                     <p>User id : <span><?= $user_id; ?></span></p>
                     <p>User name : <span><?= $fetch_users['name']; ?></span></p>
                     <p>User email : <span><?= $fetch_users['email']; ?></span></p>
