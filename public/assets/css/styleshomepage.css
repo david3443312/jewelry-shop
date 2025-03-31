@@ -1,0 +1,239 @@
+body {
+    font-family: "Cormorant Upright", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F6F4EC;
+}
+
+header {
+    background-color: #F3EDE5;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 0;
+}
+
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.menu li {
+    display: flex;
+    justify-content: left;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+    transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+.menu a:hover {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+.icons a {
+    color: #8B7355;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.icons a:hover {
+    transform: scale(1.2);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+.search input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.search button{
+    background-color: #b0a9a9;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* CSS for the hover dropdown */
+.account-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+  
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #F6F4EC;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+}
+  
+.dropdown-menu a {
+    color: #7D6E5D;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+  
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    font-size: 25px;
+
+}
+  
+  /* Show the dropdown menu on hover */
+.account-container:hover .dropdown-menu {
+    display: block;
+}
+
+.banner {
+    margin-top: 80px;
+    text-align: center;
+    position: relative;
+}
+
+.slides{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev{
+    left: 0;
+    border-radius: 3px 15px 15px 3px;
+}
+.next{
+    right: 0;
+    border-radius: 15px 0 0 15px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(137, 133, 133, 0.8);
+}
+
+.quote {
+    margin: 50px 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto; 
+    gap: 10px;
+    margin: 50px auto;
+    max-width: 800px;
+}
+  
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+  
+.gallery0 { 
+    grid-column: span 3; 
+    grid-row: span 3; 
+}
+  
+.gallery1 { 
+    grid-column: span 2; 
+    grid-row: span 2;
+}
+  
+.gallery2 { 
+    grid-column: span 5;
+    grid-row: span 1;
+}
+  
+.gallery3 { 
+    grid-column: span 1; 
+    grid-row: span 1; 
+}
+  
+.gallery4 { 
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.categories {
+    text-align: center;
+}
