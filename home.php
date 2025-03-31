@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="../jewelry-shop//public/assets/css//styleshomepage.css">
         <link rel="stylesheet" href="../jewelry-shop//public/assets/css//stylessignup.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
@@ -31,126 +32,146 @@
             <a class = "prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class = "next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <div class = "content">
-            <div class = "quote">
-                <h1 style="font-family: Great Vibes, cursive;"> “Wearing jewelry is the way to express who you are... without saying a word."</h1>
-                <p>Đeo trang sức là cách thể hiện bạn mà không cần một lời nói nào.</p>
-            </div>   
-            <div class="gallery">
-                <img src="../jewelry-shop/public/assets/images/gallery/gallery4.jpg" class="gallery4">
-                <img src="../jewelry-shop/public/assets/images/gallery/gallery3.jpg" class="gallery3">
-                <img src="../jewelry-shop/public/assets/images/gallery/gallery0.jpg" class="gallery0">
-                <img src="../jewelry-shop/public/assets/images/gallery/gallery1.jpg" class="gallery1">
-                <img src="../jewelry-shop/public/assets/images/gallery/gallery2.jpg" class="gallery2">
+    <div class="container">
+        <div class="header">
+            <h1>Pearl Silver Jewelry in Hanoi</h1>
+        </div>
+        
+        <div class="categories">
+            <div class="category">
+                <img src="../jewelry-shop//public//assets//images//gallery//vc.jpg" alt="Necklaces">
+                <h3>Necklaces</h3>
             </div>
-            <div class="categories">
-                <h2>Trang sức mới</h2>
-                <h2>Bán chạy nhất</h2>
-                <h2>Khuyến mãi</h2>
-                <h2>About</h2>
+            <div class="category">
+                <img src="../jewelry-shop//public//assets//images//gallery//hsj-pendant2.jpg" alt="Pendants">
+                <h3>Pendants</h3>
+            </div>
+            <div class="category">
+                <img src="../jewelry-shop//public//assets//images//gallery//hsj-earring.jpg" alt="Earrings">
+                <h3>Earrings</h3>
+            </div>
+            <div class="category">
+                <img src="../jewelry-shop//public//assets//images//gallery//hsj-ring2.jpg" alt="Rings">
+                <h3>Rings</h3>
+            </div>
+            <div class="category">
+                <img src="../jewelry-shop//public//assets//images//gallery//hsj-bracelet.jpg" alt="Bracelets">
+                <h3>Bracelets</h3>
+            </div>
+            <div class="category">
+                <img src="../jewelry-shop//public//assets//images//gallery//hsj-gold-jewelry.jpg" alt="Gold Jewellery">
+                <h3>Gold Jewellery</h3>
             </div>
         </div>
-        <div class="container">
-    <h1>Pearl Silver Jewelry in Hanoi</h1>
-    <div class="jewelry-categories">
-        <div class="category">
-        <img src="../jewelry-shop//public//assets//images//products//Bong_tai_bac_xo_lo//Product-3.jpg" alt="Necklaces">
-        <p>NECKLACES</p>
+        
+        <!-- First featured section -->
+        <div class="featured">
+            <div class="featured-image">
+                <img src="../jewelry-shop//public//assets//images//gallery//hsj_featured_02.jpg" alt="Tahitian Pearl Ring">
+            </div>
+            <div class="featured-content">
+                <h2>The Nature's Greatest Miracles</h2>
+                <p>A sought-after beauty of Tahitian Pearl in Exquisite Floral Jewelry</p>
+                <button class="btn">DISCOVER</button>
+            </div>
         </div>
-        <div class="category">
-        <img src="pendant.jpg" alt="Pendants">
-        <p>PENDANTS</p>
+        
+        <!-- Second featured section (reversed) -->
+        <div class="featured featured-reversed">
+            <div class="featured-image">
+                <img src="../jewelry-shop//public//assets//images//gallery//hsj_featured_03.jpg" alt="South Sea Pearl Pendant">
+            </div>
+            <div class="featured-content">
+                <h2>Refined Classic South Sea Pearl</h2>
+                <p>Exceptional Handcrafted Design to Enhance the Magnificent Glow</p>
+                <button class="btn">DISCOVER</button>
+            </div>
         </div>
-        <div class="category">
-        <img src="earrings.jpg" alt="Earrings">
-        <p>EARRINGS</p>
+        
+        <!-- New Arrivals Section -->
+        <h2>New Arrivals</h2>
+        <div class="products">
+            <div class="product">
+                <img src="../jewelry-shop//public//assets//images//gallery//2023-10-06-13-54-33-281x281.jpg" alt="Tourmaline Sterling Silver Grape Pendant">
+                <h3>Tourmaline Sterling Silver Grape Pendant</h3>
+                <div class="price">$60.00</div>
+            </div>
+            <div class="product">
+                <img src="../jewelry-shop//public//assets//images//gallery//Untitled-Product-92-2-281x281.jpg" alt="Tourmaline Sterling Silver Grape Earrings">
+                <h3>Tourmaline Sterling Silver Grape Earrings</h3>
+                <div class="price">$128.00</div>
+            </div>
+            <div class="product">
+                <img src="../jewelry-shop//public//assets//images//gallery//Untitled-Product-95-2-281x281.jpg" alt="Tourmaline Sterling Silver Grape Ring">
+                <h3>Tourmaline Sterling Silver Grape Ring</h3>
+                <div class="price">$78.00</div>
+            </div>
+            <div class="product">
+                <img src="../jewelry-shop//public//assets//images//gallery//Untitled-Product-78-2-281x281.jpg" alt="Floral Peridot White Topaz Ring">
+                <h3>Floral Peridot White Topaz Ring</h3>
+                <div class="price">$128.00</div>
+            </div>
+            <div class="product">
+                <img src="../jewelry-shop//public//assets//images//gallery//ffddf-281x281.jpg" alt="Floral Peridot White Topaz Pendant">
+                <h3>Floral Peridot White Topaz Pendant</h3>
+                <div class="price">$87.00</div>
+            </div>
+            <div class="product">
+                <img src="../jewelry-shop//public//assets//images//gallery//Untitled-Product-79-1-281x281.jpg" alt="Floral Peridot White Topaz Earrings">
+                <h3>Floral Peridot White Topaz Earrings</h3>
+                <div class="price">$142.00</div>
+            </div>
+            <div class="product">
+                <img src="../jewelry-shop//public//assets//images//gallery//Untitled-Product-82-1-281x281.jpg" alt="Cluster Oval Multi Gemstone Ring">
+                <h3>Cluster Oval Multi Gemstone Ring</h3>
+                <div class="price">$105.00</div>
+            </div>
+            <div class="product">
+                <img src="../jewelry-shop//public//assets//images//gallery//2024-04-01-14-24-10-281x281.jpg" alt="Sterling Silver Honeybee Earrings">
+                <h3>Sterling Silver Honeybee Earrings</h3>
+                <div class="price">$78.00</div>
+            </div>
+            <div class="product">
+                <img src="../jewelry-shop//public//assets//images//gallery//2024-04-01-14-19-23-281x281.jpg" alt="Sterling Silver Honeybee Pendant">
+                <h3>Sterling Silver Honeybee Pendant</h3>
+                <div class="price">$46.00</div>
+            </div>
+            <div class="product">
+                <img src="../jewelry-shop//public//assets//images//gallery//2024-04-01-14-13-21-281x281.jpg" alt="Sterling Silver Dragonfly Pendant">
+                <h3>Sterling Silver Dragonfly Pendant</h3>
+                <div class="price">$46.00</div>
+            </div>
+            <div class="product">
+                <img src="../jewelry-shop//public//assets//images//gallery//2024-04-01-14-08-04-281x281.jpg" alt="Cultured Pearl Clover CZ Pendant">
+                <h3>Cultured Pearl Clover CZ Pendant</h3>
+                <div class="price">$160.00</div>
+            </div>
+            <div class="product">
+                <img src="../jewelry-shop//public//assets//images//gallery//Untitled-Product-142-1-281x281.jpg" alt="Cultured Pearl Clover CZ Earrings">
+                <h3>Cultured Pearl Clover CZ Earrings</h3>
+                <div class="price">$237.00</div>
+            </div>
         </div>
-        <div class="category">
-        <img src="ring1.jpg" alt="Rings">
-        <p>RINGS</p>
-        </div>
-        <div class="category">
-        <img src="bracelet.jpg" alt="Bracelets">
-        <p>BRACELETS</p>
-        </div>
-        <div class="category">
-        <img src="gold-ring.jpg" alt="Gold Jewellery">
-        <p>GOLD JEWELLERY</p>
+        
+        <!-- Customer Care Section -->
+        <h2>Customer Care</h2>
+        <div class="care-items">
+            <div class="care-item">
+                <img src="../jewelry-shop//public//assets//images//footer//tiffany-anthony-09bKHOZ29us-unsplash.jpg" alt="Pearl Knowledge">
+                <h3>Knowledge</h3>
+            </div>
+            <div class="care-item">
+                <img src="../jewelry-shop//public//assets//images//footer//cornelia-ng-2zHQhfEpisc-unsplash.jpg" alt="Frequently Asked Questions">
+                <h3>FAQ</h3>
+            </div>
+            <div class="care-item">
+                <img src="../jewelry-shop//public//assets//images//footer//6fb530c3-ccea-4578-ae3e-2ec9175a9c32.jpg" alt="Product Care">
+                <h3>Product Care</h3>
+            </div>
         </div>
     </div>
-    <div class="navigation-arrow"></div>
-</div>
-
+    <?php include '../jewelry-shop/public/assets/components/user_footer.php'; ?>
     </main>
     <script src = "../jewelry-shop//public/assets/js/slider.js"></script>
 </body>
 </html>
-<style>
-    body {
-  background-color: white;
-  font-family: Arial, sans-serif;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-}
-
-h1 {
-  font-size: 36px;
-  font-weight: bold;
-  color: black;
-  font-family: Times New Roman, serif;
-}
-
-.jewelry-categories {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-}
-
-.category {
-  text-align: center;
-  margin: 0 10px;
-}
-
-.category img {
-  width: 180px;
-  height: 180px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #ccc, 0 5px 10px -5px #ccc;
-}
-
-.category p {
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-top: 5px;
-  color: black;
-}
-
-.navigation-arrow {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  width: 20px;
-  height: 20px;
-  background-color: gray;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.navigation-arrow::before {
-  content: "";
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid white;
-}
-</style>
