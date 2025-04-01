@@ -5,7 +5,7 @@
             <li><a href="home.php">Trang chủ</a></li>
             <li><a href="shop.php">Trang sức</a></li>
             <li><a href="#">Bộ sưu tập</a></li>
-            <li><a href="#">Bài viết</a></li>
+            <li><a href="#">Về chúng tôi</a></li>
             <li><a href="#">Danh sách cửa hàng</a></li>
             <li><a href="#">Liên hệ</a></li>
         </ul>

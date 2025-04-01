@@ -83,6 +83,16 @@
             <form action="" method="post" class="product-item <?php if($fetch_products['stock'] == 0){echo "disable";} ?>">
                 <div class="product-image">
                     <img src="../jewelry-shop//public//assets//uploaded_files/<?= $fetch_products['image']; ?>" alt="No image found">
+                    <div class="product-actions">
+                        <button type="submit" name="add_to_cart" class="action-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            Thêm vào giỏ hàng
+                        </button>
+                        <button type="submit" name="add_to_wishlist" class="action-btn">
+                            <i class="fas fa-heart"></i>
+                            Yêu thích
+                        </button>
+                    </div>
                 </div>
                 <h3 class="product-title"><?= $fetch_products['name']; ?></h3>
                 <div class="product-price"><?= $fetch_products['price']; ?></div>

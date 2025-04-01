@@ -378,6 +378,7 @@ h2 {
 }
 
 .product {
+    position: relative;
     width: 23%;
     background-color: white;
     margin-bottom: 25px;
@@ -395,6 +396,11 @@ h2 {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
+}
+
+.products .product-actions {
+    bottom: 5%;
+    position: relative;
 }
 
 .product h3 {
