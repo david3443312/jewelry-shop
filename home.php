@@ -93,184 +93,21 @@
         <h2>New Arrivals</h2>
         <div class="products">
             <div class="product">
-                <img src="../jewelry-shop//public//assets//images//gallery//2023-10-06-13-54-33-281x281.jpg" alt="Tourmaline Sterling Silver Grape Pendant">
-                <div class="product-actions">
-                    <button type="submit" name="add_to_cart" class="action-btn">
-                        <i class="fas fa-shopping-cart"></i>
-                        Thêm vào giỏ hàng
-                    </button>
-                    <button type="submit" name="add_to_wishlist" class="action-btn">
-                        <i class="fas fa-heart"></i>
-                        Yêu thích
-                    </button>
+                <div class="product-image">
+                    <img src="../jewelry-shop//public//assets//images//gallery//2023-10-06-13-54-33-281x281.jpg" alt="Tourmaline Sterling Silver Grape Pendant">
+                    <div class="product-actions">
+                        <button type="submit" name="add_to_cart" class="action-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            Thêm vào giỏ hàng
+                        </button>
+                        <button type="submit" name="add_to_wishlist" class="action-btn">
+                            <i class="fas fa-heart"></i>
+                            Yêu thích
+                        </button>
+                    </div>
                 </div>
                 <h3>Tourmaline Sterling Silver Grape Pendant</h3>
                 <div class="price">$60.00</div>
-            </div>
-            <div class="product">
-                <img src="../jewelry-shop//public//assets//images//gallery//Untitled-Product-92-2-281x281.jpg" alt="Tourmaline Sterling Silver Grape Earrings">
-                <div class="product-actions">
-                    <button type="submit" name="add_to_cart" class="action-btn">
-                        <i class="fas fa-shopping-cart"></i>
-                        Thêm vào giỏ hàng
-                    </button>
-                    <button type="submit" name="add_to_wishlist" class="action-btn">
-                        <i class="fas fa-heart"></i>
-                        Yêu thích
-                    </button>
-                </div>
-                <h3>Tourmaline Sterling Silver Grape Earrings</h3>
-                <div class="price">$128.00</div>
-            </div>
-            <div class="product">
-                <img src="../jewelry-shop//public//assets//images//gallery//Untitled-Product-95-2-281x281.jpg" alt="Tourmaline Sterling Silver Grape Ring">
-                <div class="product-actions">
-                    <button type="submit" name="add_to_cart" class="action-btn">
-                        <i class="fas fa-shopping-cart"></i>
-                        Thêm vào giỏ hàng
-                    </button>
-                    <button type="submit" name="add_to_wishlist" class="action-btn">
-                        <i class="fas fa-heart"></i>
-                        Yêu thích
-                    </button>
-                </div>
-                <h3>Tourmaline Sterling Silver Grape Ring</h3>
-                <div class="price">$78.00</div>
-            </div>
-            <div class="product">
-                <img src="../jewelry-shop//public//assets//images//gallery//Untitled-Product-78-2-281x281.jpg" alt="Floral Peridot White Topaz Ring">
-                <div class="product-actions">
-                    <button type="submit" name="add_to_cart" class="action-btn">
-                        <i class="fas fa-shopping-cart"></i>
-                        Thêm vào giỏ hàng
-                    </button>
-                    <button type="submit" name="add_to_wishlist" class="action-btn">
-                        <i class="fas fa-heart"></i>
-                        Yêu thích
-                    </button>
-                </div>
-                <h3>Floral Peridot White Topaz Ring</h3>
-                <div class="price">$128.00</div>
-            </div>
-            <div class="product">
-                <img src="../jewelry-shop//public//assets//images//gallery//ffddf-281x281.jpg" alt="Floral Peridot White Topaz Pendant">
-                <div class="product-actions">
-                    <button type="submit" name="add_to_cart" class="action-btn">
-                        <i class="fas fa-shopping-cart"></i>
-                        Thêm vào giỏ hàng
-                    </button>
-                    <button type="submit" name="add_to_wishlist" class="action-btn">
-                        <i class="fas fa-heart"></i>
-                        Yêu thích
-                    </button>
-                </div>
-                <h3>Floral Peridot White Topaz Pendant</h3>
-                <div class="price">$87.00</div>
-            </div>
-            <div class="product">
-                <img src="../jewelry-shop//public//assets//images//gallery//Untitled-Product-79-1-281x281.jpg" alt="Floral Peridot White Topaz Earrings">
-                <div class="product-actions">
-                    <button type="submit" name="add_to_cart" class="action-btn">
-                        <i class="fas fa-shopping-cart"></i>
-                        Thêm vào giỏ hàng
-                    </button>
-                    <button type="submit" name="add_to_wishlist" class="action-btn">
-                        <i class="fas fa-heart"></i>
-                        Yêu thích
-                    </button>
-                </div>
-                <h3>Floral Peridot White Topaz Earrings</h3>
-                <div class="price">$142.00</div>
-            </div>
-            <div class="product">
-                <img src="../jewelry-shop//public//assets//images//gallery//Untitled-Product-82-1-281x281.jpg" alt="Cluster Oval Multi Gemstone Ring">
-                <div class="product-actions">
-                    <button type="submit" name="add_to_cart" class="action-btn">
-                        <i class="fas fa-shopping-cart"></i>
-                        Thêm vào giỏ hàng
-                    </button>
-                    <button type="submit" name="add_to_wishlist" class="action-btn">
-                        <i class="fas fa-heart"></i>
-                        Yêu thích
-                    </button>
-                </div>
-                <h3>Cluster Oval Multi Gemstone Ring</h3>
-                <div class="price">$105.00</div>
-            </div>
-            <div class="product">
-                <img src="../jewelry-shop//public//assets//images//gallery//2024-04-01-14-24-10-281x281.jpg" alt="Sterling Silver Honeybee Earrings">
-                <div class="product-actions">
-                    <button type="submit" name="add_to_cart" class="action-btn">
-                        <i class="fas fa-shopping-cart"></i>
-                        Thêm vào giỏ hàng
-                    </button>
-                    <button type="submit" name="add_to_wishlist" class="action-btn">
-                        <i class="fas fa-heart"></i>
-                        Yêu thích
-                    </button>
-                </div>
-                <h3>Sterling Silver Honeybee Earrings</h3>
-                <div class="price">$78.00</div>
-            </div>
-            <div class="product">
-                <img src="../jewelry-shop//public//assets//images//gallery//2024-04-01-14-19-23-281x281.jpg" alt="Sterling Silver Honeybee Pendant">
-                <div class="product-actions">
-                    <button type="submit" name="add_to_cart" class="action-btn">
-                        <i class="fas fa-shopping-cart"></i>
-                        Thêm vào giỏ hàng
-                    </button>
-                    <button type="submit" name="add_to_wishlist" class="action-btn">
-                        <i class="fas fa-heart"></i>
-                        Yêu thích
-                    </button>
-                </div>
-                <h3>Sterling Silver Honeybee Pendant</h3>
-                <div class="price">$46.00</div>
-            </div>
-            <div class="product">
-                <img src="../jewelry-shop//public//assets//images//gallery//2024-04-01-14-13-21-281x281.jpg" alt="Sterling Silver Dragonfly Pendant">
-                <div class="product-actions">
-                    <button type="submit" name="add_to_cart" class="action-btn">
-                        <i class="fas fa-shopping-cart"></i>
-                        Thêm vào giỏ hàng
-                    </button>
-                    <button type="submit" name="add_to_wishlist" class="action-btn">
-                        <i class="fas fa-heart"></i>
-                        Yêu thích
-                    </button>
-                </div>
-                <h3>Sterling Silver Dragonfly Pendant</h3>
-                <div class="price">$46.00</div>
-            </div>
-            <div class="product">
-                <img src="../jewelry-shop//public//assets//images//gallery//2024-04-01-14-08-04-281x281.jpg" alt="Cultured Pearl Clover CZ Pendant">
-                <div class="product-actions">
-                    <button type="submit" name="add_to_cart" class="action-btn">
-                        <i class="fas fa-shopping-cart"></i>
-                        Thêm vào giỏ hàng
-                    </button>
-                    <button type="submit" name="add_to_wishlist" class="action-btn">
-                        <i class="fas fa-heart"></i>
-                        Yêu thích
-                    </button>
-                </div>
-                <h3>Cultured Pearl Clover CZ Pendant</h3>
-                <div class="price">$160.00</div>
-            </div>
-            <div class="product">
-                <img src="../jewelry-shop//public//assets//images//gallery//Untitled-Product-142-1-281x281.jpg" alt="Cultured Pearl Clover CZ Earrings">
-                <div class="product-actions">
-                    <button type="submit" name="add_to_cart" class="action-btn">
-                        <i class="fas fa-shopping-cart"></i>
-                        Thêm vào giỏ hàng
-                    </button>
-                    <button type="submit" name="add_to_wishlist" class="action-btn">
-                        <i class="fas fa-heart"></i>
-                        Yêu thích
-                    </button>
-                </div>
-                <h3>Cultured Pearl Clover CZ Earrings</h3>
-                <div class="price">$237.00</div>
             </div>
         </div>
         

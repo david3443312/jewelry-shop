@@ -12,7 +12,6 @@
         <title>Trang chủ - Jewelry Shop</title>
         <link rel="stylesheet" href="../jewelry-shop//public/assets/css//styleshomepage.css">
         <link rel="stylesheet" href="../jewelry-shop//public/assets/css//shop.css">
-        <link rel="stylesheet" href="../jewelry-shop//public/assets/css//stylessignup.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -84,18 +83,18 @@
                 <div class="product-image">
                     <img src="../jewelry-shop//public//assets//uploaded_files/<?= $fetch_products['image']; ?>" alt="No image found">
                     <div class="product-actions">
-                        <button type="submit" name="add_to_cart" class="action-btn">
+                        <button type="submit" name="add_to_cart" class="action-btn cart-btn">
                             <i class="fas fa-shopping-cart"></i>
                             Thêm vào giỏ hàng
                         </button>
-                        <button type="submit" name="add_to_wishlist" class="action-btn">
+                        <button type="submit" name="add_to_wishlist" class="action-btn wishlist-btn">
                             <i class="fas fa-heart"></i>
                             Yêu thích
                         </button>
                     </div>
                 </div>
-                <h3 class="product-title"><?= $fetch_products['name']; ?></h3>
-                <div class="product-price"><?= $fetch_products['price']; ?></div>
+                <h3 class="product-title"><a href="product.php?pid=<?= $fetch_products['id'] ?>"><?= $fetch_products['name']; ?></a></h3>
+                <div class="product-price">$ <?= $fetch_products['price']; ?></div>
             </form>
             <?php
             }
